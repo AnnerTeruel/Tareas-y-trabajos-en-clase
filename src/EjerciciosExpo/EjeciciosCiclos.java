@@ -57,12 +57,12 @@ public class EjeciciosCiclos {
         System.out.println("Impares: "+impar);
     }
     //ejerciciosTareaExpo
-    public static void ejercicio1(){
+    public  void ejercicio1(){
         for(int i=1;i<=100;i++){
             System.out.println(i);
         }
     }
-    public static void ejercicio2(){
+    public  void ejercicio2(){
         int suma=0;
         for(int i=1;i<=50;i++){
             suma+=i;
@@ -71,7 +71,7 @@ public class EjeciciosCiclos {
 
     }
 
-    public static void ejercicio3(){
+    public  void ejercicio3(){
         int num=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         System.out.println("Tabla del "+num+": ");
         for(int i=1;i<=10;i++){
@@ -79,13 +79,13 @@ public class EjeciciosCiclos {
         }
     }
 
-    public static void ejercicio4(){
+    public  void ejercicio4(){
         for(int i=1;i<=50;i++){
             System.out.println(i*2);
         }
     }
 
-    public static void ejercicio5(){
+    public  void ejercicio5(){
         int num=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         int fac=1;
         for(int i=num;i>=1;i--){
@@ -94,7 +94,7 @@ public class EjeciciosCiclos {
         System.out.println("Factorial: "+fac);
     }
 
-    public static void ejercicio6(){
+    public  void ejercicio6(){
         int spar=0,simpar=0;
         for(int i=1;i<=100;i++){
             if(i%2==0){
@@ -107,7 +107,7 @@ public class EjeciciosCiclos {
         System.out.println("Suma de impares: "+simpar);
     }
 
-    public static void ejercicio7(){
+    public  void ejercicio7(){
         int contador=0;
         int num=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         for(int i=1;i<=100;i++){
@@ -118,7 +118,7 @@ public class EjeciciosCiclos {
         System.out.println("Cantidad de multiplos que hay: "+contador);
     }
 
-    public static void ejercicio8(){
+    public  void ejercicio8(){
         String palabra=JOptionPane.showInputDialog("Ingrese una palabra: ");
         String pi="";
         for(int i=palabra.length()-1;i>=0;i--){
@@ -127,7 +127,7 @@ public class EjeciciosCiclos {
         System.out.println("Palabra inversa: "+pi);
     }
 
-    public static void ejercicio9(){
+    public  void ejercicio9(){
         //Primero se recorre del 2 al 100, ya que el 1 no es primo
         for(int i=2;i<=100;i++){
             
@@ -149,7 +149,7 @@ public class EjeciciosCiclos {
         
     }
 
-    public static void ejercicio10(){
+    public  void ejercicio10(){
         int n=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero: "));
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n-i;j++){
